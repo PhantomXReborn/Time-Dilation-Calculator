@@ -1,10 +1,10 @@
-# ⏱️ Time Dilation Calculator
+# ⏱ Time Dilation Calculator
 
 A Python-based **Time Dilation Calculator** built in **Visual Studio Code** that demonstrates how time behaves differently under extreme velocity or gravitational influence, based on Einstein’s theory of relativity. This project is designed for educational use, experimentation, and curiosity-driven exploration of physics concepts.
 
 ---
 
-## 📌 Overview
+## Overview
 
 Time dilation is a phenomenon predicted by **Special** and **General Relativity**, where time passes at different rates depending on relative velocity or gravitational strength. This program allows users to input parameters such as velocity or gravitational values and calculates how much time would pass for different observers.
 
@@ -17,7 +17,7 @@ This project is ideal for:
 
 ---
 
-## ⚙️ Features
+## Features
 
 * Calculates **relativistic time dilation** using accepted physics formulas
 * Clear input prompts and readable output
@@ -27,7 +27,7 @@ This project is ideal for:
 
 ---
 
-## 🧠 How It Works
+## How It Works
 
 The calculator applies the Lorentz factor:
 
@@ -43,7 +43,7 @@ The program compares **proper time** (experienced by the moving observer) with *
 
 ---
 
-## 🛠️ Requirements
+## Requirements
 
 * Python 3.x
 * Visual Studio Code (recommended)
@@ -51,7 +51,7 @@ The program compares **proper time** (experienced by the moving observer) with *
 
 ---
 
-## ▶️ How to Run
+## ▶ How to Run
 
 1. Clone the repository:
 
@@ -73,17 +73,17 @@ The program compares **proper time** (experienced by the moving observer) with *
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 ```
-📁 time-dilation-calculator
+time-dilation-calculator
 │── main.py
 │── README.md
 ```
 
 ---
 
-## 🚀 Future Improvements
+## Future Improvements
 
 * Add gravitational time dilation calculations
 * GUI version using Tkinter or PyQt
@@ -92,7 +92,7 @@ The program compares **proper time** (experienced by the moving observer) with *
 
 ---
 
-## 📖 Learning Resources
+## Learning Resources
 
 * Einstein’s Theory of Relativity
 * NASA relativity explanations
@@ -100,14 +100,14 @@ The program compares **proper time** (experienced by the moving observer) with *
 
 ---
 
-## 📜 License
+## License
 
 This project is open-source and free to use for educational and personal projects.
 
 ---
 
-## ✨ Author
+## Author
 
-Created as a learning and exploration project using **Python** and **Visual Studio Code**.
+Created by Reece Hannah as a learning and exploration project using **Python** and **Visual Studio Code**.
 
 If you find this project helpful or interesting, feel free to ⭐ the repository!
