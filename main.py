@@ -52,6 +52,8 @@ def calculator(choice):
         
         velocity = c * math.sqrt(1 - (proper / dilated)**2)
 
+        print("\n\nVelocity: " + str(velocity))
+
     elif choice == 2: # Finds dilated time with velocity and proper time
         print("\n\tTime Dilation Calculator")
         print("\n\nMade by: Reece Hannah")
@@ -66,6 +68,8 @@ def calculator(choice):
         
         dilated = proper / (math.sqrt(1 - (velocity**2 / c**2)))
 
+        print("\n\nDilated time: " + str(dilated))
+
     elif choice == 3: # Finds proper time with velocity and dilated time
         print("\n\tTime Dilation Calculator")
         print("\n\nMade by: Reece Hannah")
@@ -79,10 +83,10 @@ def calculator(choice):
         print("Δt₀ = Δt × √(1 - v²/c²)")
         
         proper = dilated * (math.sqrt(1 - (velocity**2 / c**2)))
+
+        print("\n\nProper time: " + str(proper))
     else:
         print("Error")
-
-mainMenu()
 
 match mainMenu():
     case 1:
