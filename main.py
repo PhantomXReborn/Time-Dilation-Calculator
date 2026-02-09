@@ -72,7 +72,7 @@ def calculator(choice):
 
         rounded_dilated = round(dilated, 2)
 
-        print("\n\Dilated time: %.3f" % dilated + "c" + " ±%.3f" % (rounded_dilated-dilated) + "sec")
+        print("\n\Dilated time: %.3f" % dilated + "sec" + " ±%.3f" % (rounded_dilated-dilated) + "sec")
 
     elif choice == 3: # Finds proper time with velocity and dilated time
         print("\n\tTime Dilation Calculator")
@@ -90,7 +90,7 @@ def calculator(choice):
 
         rounded_proper = round(proper, 2)
 
-        print("\n\nProper time: %.3f" % proper + "c" + " ±%.3f" % (rounded_proper-proper) + "sec")
+        print("\n\nProper time: %.3f" % proper + "sec" + " ±%.3f" % (rounded_proper-proper) + "sec")
 
     else:
         print("Error")
