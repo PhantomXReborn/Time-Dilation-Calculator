@@ -83,7 +83,7 @@ def calculator(choice):
         
         proper = dilated * (math.sqrt(1 - (velocity**2 / c**2)))
     else:
-        break
+        print("Error")
 
 match mainMenu:
     case 1:
