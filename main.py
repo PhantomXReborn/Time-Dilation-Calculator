@@ -44,8 +44,8 @@ def calculator(choice):
         print("\n\tTime Dilation Calculator")
         print("\n\nMade by: Reece Hannah")
 
-        proper = int(input("\n\nWhat is your Δt₀ (proper: sec):\n "))
-        dilated = int(input("\n\nWhat is your Δt (dilated: sec):\n "))
+        proper = float(input("\n\nWhat is your Δt₀ (proper: sec):\n "))
+        dilated = float(input("\n\nWhat is your Δt (dilated: sec):\n "))
 
         print("\n\nEquation:\n")
         print("v = c × √(1 − (Δt₀ / Δt)²)")
@@ -58,8 +58,8 @@ def calculator(choice):
         print("\n\tTime Dilation Calculator")
         print("\n\nMade by: Reece Hannah")
 
-        velocity = int(input("\n\nWhat is your v (velocity: km/hr):\n "))
-        proper = int(input("\n\nWhat is your Δt₀ (proper: sec):\n "))
+        velocity = float(input("\n\nWhat is your v (velocity: km/hr):\n "))
+        proper = float(input("\n\nWhat is your Δt₀ (proper: sec):\n "))
 
         velocity = velocity/3600
 
@@ -74,8 +74,8 @@ def calculator(choice):
         print("\n\tTime Dilation Calculator")
         print("\n\nMade by: Reece Hannah")
 
-        velocity = int(input("\n\nWhat is your v (velocity: km/hr):\n "))
-        dilated = int(input("\n\nWhat is your Δt (dilated: sec):\n "))
+        velocity = float(input("\n\nWhat is your v (velocity: km/hr):\n "))
+        dilated = float(input("\n\nWhat is your Δt (dilated: sec):\n "))
 
         velocity = velocity/3600
 
