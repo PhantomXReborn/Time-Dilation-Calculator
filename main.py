@@ -85,6 +85,8 @@ def calculator(choice):
     else:
         print("Error")
 
+mainMenu()
+
 match mainMenu:
     case 1:
         loading()
