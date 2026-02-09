@@ -35,12 +35,8 @@ def mainMenu():
     print("3. \'Δt₀\' Proper time")
     choice = int(input(("---> ")))
 
-    if not input("Press ENTER to calculate (or type anything to exit): "):
-        return choice
-        print("|n*** " + choice + " ***") 
-    else:
-        print("Exiting program.")
-
+    return choice
+    
 def calculator(choice):
     c = 3 * math.pow(10, 8) # Speed of light
 
