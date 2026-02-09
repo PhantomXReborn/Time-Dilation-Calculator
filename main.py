@@ -84,7 +84,7 @@ def calculator(choice):
 
 mainMenu()
 
-match mainMenu:
+match mainMenu():
     case 1:
         loading()
         calculator(1)
