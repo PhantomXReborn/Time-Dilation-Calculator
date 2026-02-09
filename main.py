@@ -21,7 +21,7 @@ def loading():
             sleep(0.1)
             clear_screen()
 
-        clear_screen()
+        clear_screen()  
 
 # Menu Screen
 def mainMenu():
