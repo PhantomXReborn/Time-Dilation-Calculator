@@ -50,9 +50,9 @@ def calculator(choice):
         print("\n\nEquation:\n")
         print("v = c × √(1 − (Δt₀ / Δt)²)")
         
-        velocity = c * math.sqrt(1 - (proper / dilated)**2)
+        velocity = math.sqrt(1 - (proper / dilated)**2)
 
-        print("\n\nVelocity: " + str(velocity))
+        print("\n\nVelocity: " + str(velocity) + "c")
 
     elif choice == 2: # Finds dilated time with velocity and proper time
         print("\n\tTime Dilation Calculator")
