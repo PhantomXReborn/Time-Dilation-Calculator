@@ -31,13 +31,14 @@ This project is ideal for:
 
 The calculator applies the Lorentz factor:
 
-γ = 1 / √(1 − v² / c²)
+Δt = Δt₀ / √(1 - v²/c²)
 
 Where:
 
-* **v** is the relative velocity
-* **c** is the speed of light
-* **γ** determines how much time slows down
+* **Δt'** is the time interval measured by the moving observer,
+* **Δt** is the time interval measured by the stationary observer,
+* **v** is the relative velocity between the observers,
+* **c** is the speed of light in a vacuum. 
 
 The program compares **proper time** (experienced by the moving observer) with **coordinate time** (experienced by a stationary observer).
 
