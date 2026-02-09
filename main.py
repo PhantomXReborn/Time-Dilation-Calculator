@@ -54,7 +54,7 @@ def calculator(choice):
 
         rounded_velocity = round(velocity, 2)
 
-        print("\n\nVelocity: %.3f" % velocity + "c" + " ±" % (rounded_velocity-velocity))
+        print("\n\nVelocity: %.3f" % velocity + "c" + " ±%.3f" % (rounded_velocity-velocity))
 
     elif choice == 2: # Finds dilated time with velocity and proper time
         print("\n\tTime Dilation Calculator")
