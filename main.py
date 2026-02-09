@@ -52,7 +52,7 @@ def calculator(choice):
         
         velocity = math.sqrt(1 - (proper / dilated)**2)
 
-        print("\n\nVelocity: %.2f" % velocity + "c")
+        print("\n\nVelocity: %.3f" % velocity + "c")
 
     elif choice == 2: # Finds dilated time with velocity and proper time
         print("\n\tTime Dilation Calculator")
