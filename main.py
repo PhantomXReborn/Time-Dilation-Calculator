@@ -37,6 +37,7 @@ def mainMenu():
 
     if not input("Press ENTER to calculate (or type anything to exit): "):
         return choice
+        print("|n*** " + choice + " ***") 
     else:
         print("Exiting program.")
 
